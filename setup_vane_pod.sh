@@ -42,7 +42,7 @@ echo "Vane status on port 3000: $VANE_STATUS"
 
 echo "=== [6/8] Setting up Nginx reverse proxy with Basic Auth ==="
 # NOTE: update PUBLIC_IP below if your pod's public IP changes after restart
-PUBLIC_IP="101.53.139.73"
+PUBLIC_IP="xxx.xxx.xxx.xxx"
 
 # Create password file only if it doesn't already exist (so you don't get repeatedly prompted)
 if [ ! -f /etc/nginx/.htpasswd ]; then
