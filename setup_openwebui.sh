@@ -11,7 +11,7 @@ set -e
 # ------------------------------------------------------------
 # EDIT THIS before running: your VM/pod's own public IP
 # ------------------------------------------------------------
-PUBLIC_IP="91.203.132.218"
+PUBLIC_IP="public-ip"
 
 echo "=== [1/5] Installing Open WebUI (snap) ==="
 apt install -y python3-pip
